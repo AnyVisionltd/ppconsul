@@ -6,7 +6,7 @@
 
 cmake_minimum_required(VERSION 3.1)
 
-project(Ppconsul VERSION 0.1)
+project(Ppconsul VERSION 0.1.1)
 
 if (WIN32)
     option(BUILD_STATIC_LIB "Build Ppconsul as static library" ON)
