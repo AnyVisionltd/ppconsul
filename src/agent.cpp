@@ -71,6 +71,7 @@ namespace impl {
             void operator() (const TtlCheck& c) const
             {
                 dst()["ttl"] = to_json(c.ttl);
+		dst ()["DeregisterCriticalServiceAfter"] = to_json(c.deregisterCriticalServiceAfter);
             }
 
             void operator() (const ScriptCheck& c) const
